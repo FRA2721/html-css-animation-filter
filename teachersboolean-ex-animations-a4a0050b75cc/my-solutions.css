@@ -6,3 +6,12 @@
     background: red;
 }
 /* ------------------------------------- */
+
+/* excersise-2 */
+.ex-2-square {
+    transition: 3s;
+}
+.ex-2-square:active {
+    width: 100%;
+}
+/* ------------------------------------- */
