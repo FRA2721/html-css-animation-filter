@@ -70,3 +70,14 @@
     border-radius: 30px;
 }
 /* ------------------------------------- */
+
+/* excersise-9 */
+.ex-9-img {
+    transition: 3s;
+}
+.ex-9-img:hover {
+    filter: grayscale(1) sepia(1);
+    border-radius: 30px;
+    transform: scale(1.5);
+}
+/* ------------------------------------- */
