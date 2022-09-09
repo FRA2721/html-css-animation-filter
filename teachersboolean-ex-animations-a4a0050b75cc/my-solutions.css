@@ -48,6 +48,15 @@
 
 /* excersise-6 */
 .ex-6-img:hover {
-    filter: grayscale(1);
+    filter: grayscale(2);
+}
+/* ------------------------------------- */
+
+/* excersise-7 */
+.ex-7-img {
+    transition: 3s;
+}
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(1);
 }
 /* ------------------------------------- */
