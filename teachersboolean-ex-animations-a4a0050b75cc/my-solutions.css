@@ -121,3 +121,42 @@
     }
 }
 /* ------------------------------------- */
+
+/* excersise-12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveTopWhite 3s linear;
+}
+
+@keyframes moveTopWhite {
+    0% {
+        left: 30%;
+    }
+
+    50% {
+        left: calc(100% - 50px);
+    }
+
+    100% {
+        left: 30%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveBottomWhite 3s linear;
+}
+
+@keyframes moveBottomWhite {
+    0% {
+        right: 30%;
+    }
+
+    50% {
+        right: calc(100% - 50px);
+    }
+
+    100% {
+        right: 30%;
+    }
+}
+/* ------------------------------------- */
+
