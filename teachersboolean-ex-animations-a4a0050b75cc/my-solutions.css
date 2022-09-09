@@ -60,3 +60,13 @@
     filter: grayscale(1) sepia(1);
 }
 /* ------------------------------------- */
+
+/* excersise-8 */
+.ex-8-img {
+    transition: 3s;
+}
+.ex-8-img:hover {
+    filter: grayscale(1) sepia(1);
+    border-radius: 30px;
+}
+/* ------------------------------------- */
